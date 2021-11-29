@@ -1,7 +1,7 @@
 <?php
   $string = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis non nobis quidem minima vel vero nulla eum, at praesentium error sunt architecto sequi aliquid ipsum in earum totam ad eligendi.';
   $badWord = $_GET['badword'];
-  $censuredString = str_replace(strtolower($badWord), '***', strtolower($string))
+  $censuredString = str_replace(strtolower($badWord), '***', strtolower($string));
 ?>
 
 <!DOCTYPE html>
